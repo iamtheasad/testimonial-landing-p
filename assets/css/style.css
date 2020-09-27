@@ -53,7 +53,10 @@ a:focus {
 ***************************************/
 .menu_section {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  position: absolute;
+  z-index: 100;
+  width: 100%; }
 
 .menu_section nav {
   max-width: 1466px;
@@ -97,6 +100,42 @@ a:focus {
 
 /**************************************
       Menu Section End
+***************************************/
+/**************************************
+     Banner Section Start
+***************************************/
+#banner_section {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: center;
+  position: relative; }
+
+#banner_section h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
+  width: 815px;
+  margin: 0 auto; }
+
+#banner_section p {
+  padding-bottom: 100px;
+  font-size: 26px;
+  color: #faf9ff;
+  font-family: "Montserrat", sans-serif;
+  width: 1150px;
+  margin: 0 auto; }
+
+/**************************************
+     Banner Section Start
 ***************************************/
 
 /*# sourceMappingURL=style.css.map */
