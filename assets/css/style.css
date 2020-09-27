@@ -267,6 +267,18 @@ a:focus {
   font-size: 24px;
   color: #faf9ff; }
 
+.video_testimonial_image {
+  position: relative; }
+
+.video_play {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%; }
+
+.video_play img {
+  width: 84px; }
+
 /**************************************
      Video Testimonial End
 ***************************************/

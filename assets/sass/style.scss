@@ -291,6 +291,7 @@ a:focus {
   padding-top: 60px;
   padding-bottom: 115px;
 }
+
 .white {
   background-color: #fff;
 }
@@ -331,6 +332,22 @@ a:focus {
   font-size: 24px;
   color: $video_text_testimonial_color;
 }
+
+.video_testimonial_image {
+  position: relative;
+}
+
+.video_play {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.video_play img {
+  width: 84px;
+}
+
 /**************************************
      Video Testimonial End
 ***************************************/
