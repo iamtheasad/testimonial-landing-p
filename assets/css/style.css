@@ -1,6 +1,13 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 /*SCSS Variables*/
+/*SCSS Extend*/
+.full_width_border {
+  display: block;
+  background: #3c424f;
+  width: 100%;
+  height: 1px; }
+
 /**************************************
      Default Css
 ***************************************/
@@ -123,7 +130,7 @@ a:focus {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Exo", sans-serif;
-  width: 815px;
+  max-width: 815px;
   margin: 0 auto; }
 
 #banner_section p {
@@ -131,11 +138,94 @@ a:focus {
   font-size: 26px;
   color: #faf9ff;
   font-family: "Montserrat", sans-serif;
-  width: 1150px;
+  max-width: 1150px;
   margin: 0 auto; }
 
 /**************************************
      Banner Section Start
+***************************************/
+/**************************************
+     Featured Testimonial Start
+***************************************/
+#featured_testimonial_section {
+  padding: 105px 0px; }
+
+.section_width {
+  max-width: 1466px;
+  margin: 0 auto; }
+
+#featured_testimonial_section h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  color: #1d2440;
+  padding-bottom: 85px; }
+
+.testimonial_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.testimonial_row {
+  padding: 90px 0px; }
+
+.testimonial_row p, .testimonial_row h3, .testimonial_row span {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #1d2440; }
+
+.testimonial_row h3 {
+  font-size: 30px !important;
+  padding: 25px 0px; }
+
+.testimonial_row span {
+  color: #172e58; }
+
+/*Logo slider*/
+.logo_carousel {
+  padding-top: 95px;
+  padding-bottom: 35px; }
+
+.logo_carousel.owl-carousel .owl-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.arrow_next_bg {
+  background-image: url(../images/icon/right-arrow.png);
+  padding: 20px;
+  position: absolute;
+  z-index: 2;
+  right: 28px;
+  background-size: cover;
+  background-position: center;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.arrow_prev_bg {
+  display: none !important; }
+
+.logo_carousel button {
+  border: none; }
+
+.logo_carousel .slick-track {
+  display: flex;
+  align-items: center; }
+
+.logo_item img {
+  width: 180px;
+  object-fit: contain; }
+
+.logo_item img:active {
+  outline: none; }
+
+.logo_carousel .slick-slide {
+  outline: none; }
+
+/**************************************
+     Featured Testimonial End
 ***************************************/
 
 /*# sourceMappingURL=style.css.map */
