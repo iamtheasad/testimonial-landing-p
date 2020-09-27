@@ -1,5 +1,6 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+/*SCSS Variables*/
 /**************************************
      Default Css
 ***************************************/
@@ -12,7 +13,7 @@ body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 h1,
 h2,
@@ -20,13 +21,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   font-weight: 700; }
 
 p {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 ul,
 p {

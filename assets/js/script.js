@@ -1,7 +1,7 @@
 (function iamStrict(){
    "use strict"; // Javascript Strict Method
 
-   jQuery(document).ready(function () {
+   $(document).ready(function () {
 
       // Place All Code Here
       
