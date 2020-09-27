@@ -282,5 +282,51 @@ a:focus {
 /**************************************
      Video Testimonial End
 ***************************************/
+/**************************************
+     Call to Action Start
+***************************************/
+#call_to_action {
+  background-image: url("../images/call-to-action-bg.jpg"); }
+
+#call_to_action h3 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize; }
+
+#call_to_action h2 {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 45px;
+  padding-bottom: 80px; }
+
+a.call_to_action_button {
+  background-color: #5bbc2e;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px 80px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  text-transform: uppercase; }
+
+.callToAction_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 595px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 95px;
+  text-align: center; }
+
+/**************************************
+     Call to Action End
+***************************************/
 
 /*# sourceMappingURL=style.css.map */
