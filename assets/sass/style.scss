@@ -4,7 +4,10 @@
 /*SCSS Variables*/
 $exo_font_family: 'Exo', sans-serif;
 $montserrat_font_family: 'Montserrat', sans-serif;
+
 $testimonial_text_color: #1d2440;
+$video_text_testimonial_color: #faf9ff;
+
 $heading_font_size_50: 50px;
 $heading_font_size_60: 60px;
 
@@ -277,4 +280,57 @@ a:focus {
 
 /**************************************
      Featured Testimonial End
+***************************************/
+
+
+/**************************************
+     Video Testimonial Start
+***************************************/
+#video_testimonial_section {
+  background-color: $testimonial_text_color;
+  padding-top: 60px;
+  padding-bottom: 115px;
+}
+.white {
+  background-color: #fff;
+}
+
+.video_testimonial_row {
+  padding: 50px 0px;
+}
+
+.video_testimonial_title {
+  text-transform: uppercase;
+  color: $video_text_testimonial_color;
+  font-weight: 400;
+  font-size: $heading_font_size_50;
+  padding-bottom: 45px;
+}
+
+.video_testimonial_row {
+  padding: 50px 0px;
+}
+
+.video_testimonial_icon {
+  max-width: 320px;
+}
+
+.video_testimonial_row p {
+  color: $video_text_testimonial_color;
+  font-size: 25px;
+  font-family: $montserrat_font_family;
+  padding: 35px 0px;
+}
+
+.video_testimonial_row h2 {
+  font-size: 36px;
+  color: $video_text_testimonial_color;
+}
+
+.video_testimonial_row span {
+  font-size: 24px;
+  color: $video_text_testimonial_color;
+}
+/**************************************
+     Video Testimonial End
 ***************************************/

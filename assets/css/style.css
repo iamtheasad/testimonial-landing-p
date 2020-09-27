@@ -226,5 +226,49 @@ a:focus {
 /**************************************
      Featured Testimonial End
 ***************************************/
+/**************************************
+     Video Testimonial Start
+***************************************/
+#video_testimonial_section {
+  background-color: #1d2440;
+  padding-top: 60px;
+  padding-bottom: 115px; }
+
+.white {
+  background-color: #fff; }
+
+.video_testimonial_row {
+  padding: 50px 0px; }
+
+.video_testimonial_title {
+  text-transform: uppercase;
+  color: #faf9ff;
+  font-weight: 400;
+  font-size: 50px;
+  padding-bottom: 45px; }
+
+.video_testimonial_row {
+  padding: 50px 0px; }
+
+.video_testimonial_icon {
+  max-width: 320px; }
+
+.video_testimonial_row p {
+  color: #faf9ff;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  padding: 35px 0px; }
+
+.video_testimonial_row h2 {
+  font-size: 36px;
+  color: #faf9ff; }
+
+.video_testimonial_row span {
+  font-size: 24px;
+  color: #faf9ff; }
+
+/**************************************
+     Video Testimonial End
+***************************************/
 
 /*# sourceMappingURL=style.css.map */

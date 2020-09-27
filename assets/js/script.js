@@ -9,7 +9,7 @@
            slidesToShow: 5,
            slidesToScroll: 1,
            infinite: true,
-           autoplay: false,
+           autoplay: true,
            pauseOnHover: false,
            arrows: true,
            prevArrow: '<button type="button" class="slick-prev"><span class="arrow_prev_bg"></span></button>',
