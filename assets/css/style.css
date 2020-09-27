@@ -201,8 +201,7 @@ a:focus {
   right: 28px;
   background-size: cover;
   background-position: center;
-  top: 50%;
-  transform: translateY(-50%); }
+  top: 50%; }
 
 .arrow_prev_bg {
   display: none !important; }
@@ -215,7 +214,7 @@ a:focus {
   align-items: center; }
 
 .logo_item img {
-  width: 180px;
+  width: 200px;
   object-fit: contain; }
 
 .logo_item img:active {

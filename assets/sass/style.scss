@@ -247,7 +247,6 @@ a:focus {
   background-size: cover;
   background-position: center;
   top: 50%;
-  transform: translateY(-50%);
 }
 
 .arrow_prev_bg {
@@ -264,7 +263,7 @@ a:focus {
 }
 
 .logo_item img {
-  width: 180px;
+  width: 200px;
   object-fit: contain;
 }
 
