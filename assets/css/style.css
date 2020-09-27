@@ -51,5 +51,48 @@ a:focus {
 /**************************************
       Menu Section Start
 ***************************************/
+.menu_section {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px 0px; }
+
+.menu_section nav {
+  max-width: 1466px;
+  margin: 0 auto; }
+
+.logo {
+  width: 180px; }
+
+.testimonial_menu a.nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  margin: 5px; }
+
+.testimonial_menu a.nav-link:focus {
+  color: #ddd; }
+
+.testimonial_menu a.nav-link {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif; }
+
+.toggle_icon {
+  display: flex;
+  flex-direction: column; }
+
+.toggle_icon span {
+  width: 50px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 2px; }
+
+/**************************************
+      Menu Section End
+***************************************/
 
 /*# sourceMappingURL=style.css.map */
