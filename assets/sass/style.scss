@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:$montserrat_font_family;
+  font-family: $montserrat_font_family;
   margin: 0;
   padding: 0;
   font-weight: 700;
@@ -64,7 +64,7 @@ a:focus {
       Menu Section Start
 ***************************************/
 .menu_section {
-  background-color: rgba(0,0,0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 20px 0px;
 }
 
@@ -76,7 +76,6 @@ a:focus {
 .logo {
   width: 180px;
 }
-
 
 .testimonial_menu a.nav-link {
   color: #fff;
@@ -97,6 +96,11 @@ a:focus {
   color: #fff;
   font-size: 18px;
   font-family: $montserrat_font_family;
+}
+
+.testimonial_menu a.nav-link:last-child {
+  margin-right: 0px !important;
+  padding-right: 0px !important;
 }
 
 .toggle_icon {

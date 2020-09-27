@@ -80,6 +80,10 @@ a:focus {
   font-size: 18px;
   font-family: "Montserrat", sans-serif; }
 
+.testimonial_menu a.nav-link:last-child {
+  margin-right: 0px !important;
+  padding-right: 0px !important; }
+
 .toggle_icon {
   display: flex;
   flex-direction: column; }
