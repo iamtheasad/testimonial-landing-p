@@ -39,6 +39,40 @@
             ]
         });
 
+        /*Feedback Slider*/
+        $('.feedback_wrapper').slick({
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            pauseOnHover: false,
+            arrows: false,
+            autoplaySpeed: 2000,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                }
+            },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        arrows: false,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        dots: false
+                    }
+                }
+            ]
+        });
+
+
         /*Magnific Popup*/
         $('.video_play_icon').magnificPopup({
             type: 'iframe',

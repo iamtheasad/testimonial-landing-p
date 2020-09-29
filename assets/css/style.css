@@ -328,5 +328,90 @@ a.call_to_action_button {
 /**************************************
      Call to Action End
 ***************************************/
+/**************************************
+     Feedback Section Start
+***************************************/
+#feedback_section {
+  background: #f2f2f2;
+  padding: 75px 0px; }
+
+.feedback_title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1d2440;
+  font-family: "Montserrat", sans-serif;
+  font-size: 43px; }
+
+.feedback_box {
+  background-color: #d2d6de;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 180px 45px 45px 45px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.feedback_image {
+  width: 224px;
+  position: absolute;
+  left: 50%;
+  top: -9%;
+  transform: translateX(-50%);
+  z-index: 1; }
+
+.feedback_box p {
+  font-size: 24px;
+  line-height: 48px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  color: #1d2440;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  max-width: 900px; }
+
+.feedback_box h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  color: #1d2440; }
+
+.feedback_box h3 {
+  font-size: 30px;
+  color: #1d2440;
+  font-weight: 400; }
+
+.green {
+  background-color: #5bbc2e;
+  max-width: 700px; }
+
+.single_feedback.slick-slide {
+  padding-top: 115px;
+  outline: none; }
+
+.feedback_wrapper ul.slick-dots {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  list-style: none; }
+
+.feedback_wrapper li button {
+  background: #272e4a;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-indent: -9999px;
+  margin: 4px; }
+
+.feedback_wrapper li.slick-active button {
+  background-color: #5bbc2e; }
+
+/**************************************
+     Feedback Section End
+***************************************/
 
 /*# sourceMappingURL=style.css.map */
