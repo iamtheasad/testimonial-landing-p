@@ -39,6 +39,43 @@
             ]
         });
 
+
+        /*Video Testimonial Slider*/
+        $('.video_testimonial_wrapper').slick({
+            dots: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: false,
+            pauseOnHover: false,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"><span class="arrow_prev_bg"></span></button>',
+            nextArrow: '<button type="button" class="slick-next"><span class="video_arrow_next"></span></button>',
+            autoplaySpeed: 5000,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                }
+            },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        arrows: false,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        dots: false
+                    }
+                }
+            ]
+        });
+
+
         /*Feedback Slider*/
         $('.feedback_wrapper').slick({
             dots: true,

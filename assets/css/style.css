@@ -8,6 +8,10 @@
   width: 100%;
   height: 1px; }
 
+.section_width {
+  max-width: 1466px;
+  margin: 0 auto; }
+
 /**************************************
      Default Css
 ***************************************/
@@ -150,10 +154,6 @@ a:focus {
 #featured_testimonial_section {
   padding: 105px 0px; }
 
-.section_width {
-  max-width: 1466px;
-  margin: 0 auto; }
-
 #featured_testimonial_section h2 {
   text-transform: uppercase;
   font-weight: 700;
@@ -194,7 +194,7 @@ a:focus {
   align-items: center; }
 
 .arrow_next_bg {
-  background-image: url(../images/icon/right-arrow.png);
+  background-image: url(../images/icon/right-arrow.svg);
   padding: 20px;
   position: absolute;
   z-index: 2;
@@ -278,6 +278,18 @@ a:focus {
 
 .video_play img {
   width: 84px; }
+
+.video_arrow_next {
+  background-image: url(../images/icon/next-icon.svg);
+  position: absolute;
+  right: 0px;
+  background-size: cover;
+  background-position: center;
+  width: 77px;
+  height: 77px; }
+
+.video_testimonial_wrapper button {
+  border: none; }
 
 /**************************************
      Video Testimonial End
@@ -405,13 +417,51 @@ a.call_to_action_button {
   height: 25px;
   border-radius: 50%;
   text-indent: -9999px;
-  margin: 4px; }
+  margin: 8px; }
 
 .feedback_wrapper li.slick-active button {
   background-color: #5bbc2e; }
 
 /**************************************
      Feedback Section End
+***************************************/
+/**************************************
+     Client Section Start
+***************************************/
+.client_banner_section {
+  padding-top: 150px;
+  padding-bottom: 160px; }
+
+.client_title {
+  font-size: 60px;
+  color: #1d2440;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 35px; }
+
+.client_subtitle {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  color: #1d2440; }
+
+.client_dropdown_option {
+  width: 100%; }
+
+.client_dropdown_option .form-control-lg {
+  font-size: 40px !important;
+  font-weight: 400;
+  font-family: 'montserrat', sans-serif;
+  color: #1d2440;
+  border-color: #a1a1a1;
+  margin-top: 100px; }
+
+.client_dropdown_option .form-control:focus {
+  box-shadow: none; }
+
+/**************************************
+     Client Section End
 ***************************************/
 
 /*# sourceMappingURL=style.css.map */
