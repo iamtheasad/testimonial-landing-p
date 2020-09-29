@@ -460,6 +460,95 @@ a.call_to_action_button {
 .client_dropdown_option .form-control:focus {
   box-shadow: none; }
 
+.client_arrow_prev {
+  background-image: url("../images/clients/left-arrow.svg");
+  position: absolute;
+  left: 0px;
+  background-size: cover;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2; }
+
+.client_arrow_next {
+  background-image: url(../images/clients/next.svg);
+  position: absolute;
+  right: 0px;
+  background-size: cover;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2; }
+
+.client_slider.slick-initialized.slick-slider button {
+  border: none; }
+
+.client_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+
+.client_designation_wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 45px; }
+
+.heading_text {
+  position: absolute;
+  background: #5bbc2e;
+  left: 0;
+  top: 70px;
+  padding: 20px;
+  overflow: hidden;
+  color: #fff;
+  letter-spacing: 2px; }
+
+.client_quote {
+  position: absolute;
+  right: 30px;
+  width: 50px;
+  top: 10%; }
+
+.client_name {
+  font-size: 30px;
+  color: #1d2440;
+  padding-bottom: 10px; }
+
+.client_designation h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1d2440; }
+
+.client_designation {
+  padding-left: 45px; }
+
+.single_client_item {
+  margin: 70px !important;
+  background: #f4f4f4; }
+
+.client_details_wrapper {
+  padding: 25px;
+  position: relative; }
+
+.client_logo {
+  width: 150px;
+  padding-top: 200px;
+  padding-bottom: 30px; }
+
+.single_client_item.slick-slide:focus {
+  outline: none; }
+
+.client_details_wrapper p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding-top: 50px;
+  color: #1d2440; }
+
 /**************************************
      Client Section End
 ***************************************/

@@ -124,6 +124,44 @@
             }
         });
 
+        /*Client Slider*/
+        $('.client_slider').slick({
+            dots: false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            pauseOnHover: false,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"><span class="client_arrow_prev"></span></button>',
+            nextArrow: '<button type="button" class="slick-next"><span class="client_arrow_next"></span></button>',
+            autoplaySpeed: 5000,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 2
+                }
+            },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
     });
 })();
  
