@@ -1,33 +1,37 @@
 /* Large Layout: 992px-1280px */
-@media only screen and (min-width: 992px) and (max-width: 1280px) {
+@media only screen and (min-width: 62rem /* 992px */
+) and (max-width: 80rem /* 1280px */
+) {
 }
 
 /* Large Layout: 992px-1280px End */
 
 /* Large Layout: 992px Start */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 62rem /* 992px */
+) {
 }
 
 /* Large Layout: 992px End */
 
 
 /* Tablet & Mobile Layout: 0px-991px */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 61.9375rem /* 991px */
+) {
     #banner_section h1 {
-        font-size: 32px;
+        font-size: 2rem; /* 32px */
     }
 
     #banner_section p {
-        font-size: 18px;
-        padding: 15px;
+        font-size: 1.125rem; /* 18px */
+        padding: 0.9375rem; /* 15px */
     }
 
     #featured_testimonial_section h2 {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .testimonial_row p, .testimonial_row h3, .testimonial_row span {
-        font-size: 18px;
+        font-size: 1.125rem; /* 18px */
     }
 
     .testimonial_wrapper {
@@ -40,16 +44,16 @@
 
     .testimonial_row span {
         display: block;
-        padding-bottom: 30px;
-        padding-top: 35px;
+        padding-bottom: 1.875rem; /* 30px */
+        padding-top: 2.1875rem; /* 35px */
     }
 
     .video_testimonial_title {
-        font-size: 30px;
+        font-size: 1.875rem; /* 30px */
     }
 
     .video_testimonial_row p {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px */
         line-height: 1.7;
     }
 
@@ -59,108 +63,108 @@
     }
 
     .client_image {
-        padding-bottom: 30px;
-        width: 90px !important;
+        padding-bottom: 1.875rem; /* 30px */
+        width: 5.625rem /* 90px */ !important;
     }
 
     .video_testimonial_row p {
-        padding-top: 0px;
-        padding-bottom: 30px;
+        padding-top: 0rem; /* 0px */
+        padding-bottom: 1.875rem; /* 30px */
     }
 
     .video_arrow_next {
-        width: 42px;
-        height: 42px;
+        width: 2.625rem; /* 42px */
+        height: 2.625rem; /* 42px */
     }
 
     #call_to_action h2 {
-        font-size: 18px;
+        font-size: 1.125rem; /* 18px */
     }
 
     #call_to_action h3 {
-        font-size: 14px;
+        font-size: 0.875rem; /* 14px */
     }
 
     a.call_to_action_button {
-        font-size: 14px;
-        padding: 13px 20px;
+        font-size: 0.875rem; /* 14px */
+        padding: 0.8125rem 1.25rem; /* 13px 20px */
     }
 
     .callToAction_wrapper {
-        min-height: 192px;
-        padding-bottom: 20px;
-        padding-top: 40px;
+        min-height: 12rem; /* 192px */
+        padding-bottom: 1.25rem; /* 20px */
+        padding-top: 2.5rem; /* 40px */
     }
 
     #call_to_action {
-        margin: 60px 0px;
+        margin: 3.75rem 0rem; /* 60px 0px */
     }
 
     .feedback_title {
-        font-size: 48px;
+        font-size: 3rem; /* 48px */
     }
 
     .feedback_image {
-        width: 145px;
+        width: 9.0625rem; /* 145px */
         top: -4%;
     }
 
     .feedback_box {
         position: relative;
-        padding: 160px 15px 15px 15px;
+        padding: 10rem 0.9375rem 0.9375rem 0.9375rem; /* 160px 15px 15px 15px */
     }
 
     .feedback_quote {
-        width: 45px;
+        width: 2.8125rem; /* 45px */
     }
 
     .feedback_box p {
-        font-size: 18px;
+        font-size: 1.125rem; /* 18px */
         line-height: 1.7;
     }
 
     .feedback_box h2 {
-        font-size: 30px;
+        font-size: 1.875rem; /* 30px */
     }
 
     .feedback_box h3 {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .client_title {
-        font-size: 32px;
+        font-size: 2rem; /* 32px */
     }
 
     .client_subtitle {
-        font-size: 28px;
+        font-size: 1.75rem; /* 28px */
     }
 
     .client_dropdown_option .form-control-lg {
-        font-size: 20px !important;
+        font-size: 1.25rem /* 20px */ !important;
     }
 
     .client_dropdown_option {
-        margin: 15px;
+        margin: 0.9375rem; /* 15px */
     }
 
     .client_name {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
 
     .client_designation h3 {
-        font-size: 18px;
+        font-size: 1.125rem; /* 18px */
     }
 
     .client_designation {
-        padding-left: 30px;
+        padding-left: 1.875rem; /* 30px */
     }
 
     .single_client_item {
-        margin: 32px 0px !important;
+        margin: 2rem 0rem /* 32px 0px */ !important;
     }
 
     .client_details_wrapper {
-        padding: 30px 7px;
+        padding: 1.875rem 0.4375rem; /* 30px 7px */
     }
 
     .client_quote {
@@ -168,31 +172,32 @@
     }
 
     .heading_text h3 {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px */
     }
 
     .heading_text:after {
-        width: 10px;
-        height: 11px;
+        width: 0.625rem; /* 10px */
+        height: 0.6875rem; /* 11px */
     }
 
     .heading_text {
         letter-spacing: 0;
-        padding: 10px;
-        left: 14px
+        padding: 0.625rem; /* 10px */
+        left: 0.875rem /* 14px */
     }
 
     .case_studies_title {
-        font-size: 24px;
+        font-size: 1.5rem; /* 24px */
     }
+
     .social_icon {
-        text-align: center!important;
+        text-align: center !important;
     }
 
     .footer_title {
-        font-size: 18px;
-        padding-bottom: 10px;
-        padding-top: 50px;
+        font-size: 1.125rem; /* 18px */
+        padding-bottom: 0.625rem; /* 10px */
+        padding-top: 3.125rem; /* 50px */
     }
 
 }
@@ -201,14 +206,17 @@
 
 
 /* Tablet Layout: 768px-991px */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 48rem /* 768px */
+) and (max-width: 61.9375rem /* 991px */
+) {
 }
 
 /* Tablet Layout: 768px-991px End */
 
 
 /* Mobile Layout: 0px-767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 47.9375rem /* 767px */
+) {
 
 }
 
@@ -216,13 +224,16 @@
 
 
 /* Wide Mobile Layout: 576px-767px Start */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 36rem /* 576px */
+) and (max-width: 47.9375rem /* 767px */
+) {
 }
 
 /* Wide Mobile Layout:576px-767px End */
 
 /* Small Devices: 0px-575px Start */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 35.9375rem /* 575px */
+) {
 
 }
 
