@@ -613,9 +613,19 @@ a.call_to_action_button {
   left: 0;
   top: 70px;
   padding: 20px;
-  overflow: hidden;
   color: #fff;
   letter-spacing: 2px;
+}
+
+.heading_text:after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 20px;
+  background: #5bbc2e;
+  transform: skewY(48deg);
+  left: 0%;
+  bottom: -9%;
 }
 
 .client_quote {
