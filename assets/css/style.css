@@ -405,6 +405,9 @@ a.call_to_action_button {
   border-radius: 1.875rem;
   display: inline-block;
   text-transform: uppercase;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  -moz-transition: .1s;
   transition: .1s; }
 
 a.call_to_action_button:hover {
