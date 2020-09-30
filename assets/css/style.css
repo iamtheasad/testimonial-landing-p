@@ -314,9 +314,6 @@ a:focus {
   font-size: 3.125rem;
   padding-bottom: 2.8125rem; }
 
-.video_testimonial_row {
-  padding: 3.125rem 0rem; }
-
 .video_testimonial_icon {
   max-width: 20rem; }
 
@@ -566,6 +563,9 @@ a.call_to_action_button:hover {
   padding-top: 9.375rem;
   padding-bottom: 3.75rem; }
 
+img.client_banner_2 {
+  display: none; }
+
 .client_title {
   font-size: 3.75rem;
   color: #1d2440;
@@ -745,7 +745,9 @@ a.call_to_action_button:hover {
   margin-bottom: 5rem; }
 
 .case_studies_top {
-  padding: 3.125rem 3.125rem 0rem 3.125rem; }
+  padding: 3.125rem 3.125rem 0rem 3.125rem;
+  width: 100%;
+  text-align: center; }
 
 .case_studies_top img {
   padding-bottom: 2.5rem; }
@@ -799,6 +801,23 @@ a.call_to_action_button:hover {
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 5rem; }
+
+.trusted_item_row_2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  display: none; }
 
 /**************************************
      Trusted Client Section End

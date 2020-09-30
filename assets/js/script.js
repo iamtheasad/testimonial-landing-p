@@ -55,7 +55,7 @@
             responsive: [{
                 breakpoint: 1024,
                 settings: {
-                    arrows: false,
+                    arrows: true,
                 }
             },
                 {
@@ -130,7 +130,7 @@
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             pauseOnHover: false,
             arrows: true,
             prevArrow: '<button type="button" class="slick-prev"><span class="client_arrow_prev"></span></button>',
