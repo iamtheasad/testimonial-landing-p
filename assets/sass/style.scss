@@ -682,3 +682,38 @@ a.call_to_action_button {
 /**************************************
      Client Section End
 ***************************************/
+
+
+/**************************************
+     Case Study Section Start
+***************************************/
+.case_study_box {
+  background-color: #f2f2f2;
+  margin-bottom: 80px;
+}
+
+.case_studies_top {
+  padding: 50px 50px 0px 50px;
+}
+
+.case_studies_top img {
+  padding-bottom: 40px;
+}
+
+.case_studies_text {
+  padding: 35px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: $montserrat_font_family;
+  color: #000;
+}
+
+.case_studies_title {
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
+
+/**************************************
+     Case Study Section End
+***************************************/
