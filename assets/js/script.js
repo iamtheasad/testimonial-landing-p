@@ -130,7 +130,7 @@
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             pauseOnHover: false,
             arrows: true,
             prevArrow: '<button type="button" class="slick-prev"><span class="client_arrow_prev"></span></button>',
