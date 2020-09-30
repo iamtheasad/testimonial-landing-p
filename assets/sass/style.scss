@@ -720,7 +720,7 @@ a.call_to_action_button {
 
 
 /**************************************
-     rusted Client Section Start
+     Trusted Client Section Start
 ***************************************/
 .trusted_wrapper {
   background-image: url(../images/case-studies/case_study_bg.png);
@@ -746,5 +746,72 @@ a.call_to_action_button {
 }
 
 /**************************************
-     rusted Client Section End
+     Trusted Client Section End
 ***************************************/
+
+
+/**************************************
+     Footer Section Start
+***************************************/
+.footer_section {
+  background-color: #172e58;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer_title {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer_section ul li {
+  list-style: none;
+  line-height: 40px;
+}
+
+.footer_section ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: $montserrat_font_family;
+}
+
+.footer_section ul {
+  padding-top: 25px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+}
+
+.social_icon a {
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #172e58;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.social_icon {
+  padding-top: 30px;
+}
+
+/**************************************
+     Footer Section End
+***************************************/
+
+
+
+
+
