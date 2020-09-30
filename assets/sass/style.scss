@@ -528,7 +528,7 @@ a.call_to_action_button {
 ***************************************/
 .client_banner_section {
   padding-top: 150px;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
 }
 
 .client_title {
@@ -620,13 +620,14 @@ a.call_to_action_button {
 .heading_text:after {
   position: absolute;
   content: '';
-  width: 10px;
-  height: 20px;
+  width: 16px;
+  height: 51px;
   background: #5bbc2e;
   transform: skewY(48deg);
   left: 0%;
-  bottom: -9%;
+  bottom: -15%;
 }
+
 
 .client_quote {
   position: absolute;
@@ -657,7 +658,7 @@ a.call_to_action_button {
 }
 
 .client_details_wrapper {
-  padding: 25px;
+  padding: 66px 25px;
   position: relative;
 }
 
