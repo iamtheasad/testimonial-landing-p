@@ -263,6 +263,36 @@
         margin-bottom: 3.75rem; /* 60px */
     }
 
+    .trusted_item_row_2 li {
+        list-style: none;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .trusted_item_row_2 {
+        padding-bottom: 0px;
+    }
+
+    .trusted_item_row_2 ul li img {
+        width: 130px;
+    }
+
+    .trusted_item_row_2 ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu_section {
+        padding: 0px;
+    }
+
+    .logo {
+        width: 9.25rem;
+    }
+
 }
 
 /* Tablet & Mobile Layout: 0px-991px End */
