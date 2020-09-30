@@ -449,9 +449,12 @@ a:focus {
      Call to Action Start
 ***************************************/
 #call_to_action {
-  background-image: url("../images/call-to-action-bg.jpg");
+  background-image: url(../images/call-to-action-bg.jpg);
   margin: 10.625rem 0rem;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #call_to_action h3 {
