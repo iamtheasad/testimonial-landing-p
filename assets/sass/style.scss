@@ -8,19 +8,19 @@ $montserrat_font_family: 'Montserrat', sans-serif;
 $testimonial_text_color: #1d2440;
 $video_text_testimonial_color: #faf9ff;
 
-$heading_font_size_50: 50px;
-$heading_font_size_60: 60px;
+$heading_font_size_50: 3.125rem;
+$heading_font_size_60: 3.75rem;
 
 /*SCSS Extend*/
 %full_width_border {
   display: block;
   background: #3c424f;
   width: 100%;
-  height: 1px;
+  height: 0.0625rem;
 }
 
 %section_width {
-  max-width: 1466px;
+  max-width: 91.625rem;
   margin: 0 auto;
 }
 
@@ -28,15 +28,15 @@ $heading_font_size_60: 60px;
      Default Css
 ***************************************/
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: $montserrat_font_family;
 }
 
@@ -58,8 +58,8 @@ p {
 
 ul,
 p {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 img {
@@ -84,30 +84,30 @@ a:focus {
 ***************************************/
 .menu_section {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px 0px;
+  padding: 1.25rem 0rem;
   position: absolute;
   z-index: 100;
   width: 100%;
 }
 
 .menu_section nav {
-  max-width: 1466px;
+  max-width: 91.625rem;
   margin: 0 auto;
 }
 
 .logo {
-  width: 180px;
+  width: 11.25rem;
 }
 
 .testimonial_menu a.nav-link {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "Montserrat", sans-serif;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-  margin: 5px;
+  padding-left: 1.875rem !important;
+  padding-right: 1.875rem !important;
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+  margin: 0.3125rem;
 }
 
 .testimonial_menu a.nav-link:focus {
@@ -116,13 +116,13 @@ a:focus {
 
 .testimonial_menu a.nav-link {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: $montserrat_font_family;
 }
 
 .testimonial_menu a.nav-link:last-child {
-  margin-right: 0px !important;
-  padding-right: 0px !important;
+  margin-right: 0rem !important;
+  padding-right: 0rem !important;
 }
 
 .toggle_icon {
@@ -141,13 +141,13 @@ a:focus {
 }
 
 .toggle_icon span {
-  width: 50px;
-  height: 10px;
+  width: 3.125rem;
+  height: 0.625rem;
   background-color: #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  margin: 2px;
+  -webkit-border-radius: 0.3125rem;
+  -moz-border-radius: 0.3125rem;
+  border-radius: 0.3125rem;
+  margin: 0.125rem;
 }
 
 /**************************************
@@ -195,16 +195,16 @@ a:focus {
   font-weight: 700;
   text-transform: uppercase;
   font-family: $exo_font_family;
-  max-width: 815px;
+  max-width: 50.9375rem;
   margin: 0 auto;
 }
 
 #banner_section p {
-  padding-bottom: 100px;
-  font-size: 26px;
+  padding-bottom: 6.25rem;
+  font-size: 1.625rem;
   color: #faf9ff;
   font-family: $montserrat_font_family;
-  max-width: 1150px;
+  max-width: 71.875rem;
   margin: 0 auto;
 }
 
@@ -216,7 +216,7 @@ a:focus {
      Featured Testimonial Start
 ***************************************/
 #featured_testimonial_section {
-  padding: 105px 0px;
+  padding: 6.5625rem 0rem;
 }
 
 .section_width {
@@ -229,7 +229,7 @@ a:focus {
   font-family: $montserrat_font_family;
   font-size: $heading_font_size_50;
   color: $testimonial_text_color;
-  padding-bottom: 85px;
+  padding-bottom: 5.3125rem;
 }
 
 .full_width_border {
@@ -257,19 +257,19 @@ a:focus {
 }
 
 .testimonial_row {
-  padding: 90px 0px;
+  padding: 5.625rem 0rem;
 }
 
 .testimonial_row p, .testimonial_row h3, .testimonial_row span {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: $montserrat_font_family;
   font-weight: 700;
   color: $testimonial_text_color
 }
 
 .testimonial_row h3 {
-  font-size: 30px !important;
-  padding: 25px 0px;
+  font-size: 1.875rem !important;
+  padding: 1.5625rem 0rem;
 }
 
 .testimonial_row span {
@@ -278,8 +278,8 @@ a:focus {
 
 /*Logo slider*/
 .logo_carousel {
-  padding-top: 95px;
-  padding-bottom: 35px;
+  padding-top: 5.9375rem;
+  padding-bottom: 2.1875rem;
 }
 
 .logo_carousel.owl-carousel .owl-stage {
@@ -302,10 +302,10 @@ a:focus {
 
 .arrow_next_bg {
   background-image: url(../images/icon/right-arrow.svg);
-  padding: 20px;
+  padding: 1.25rem;
   position: absolute;
   z-index: 2;
-  right: 28px;
+  right: 1.75rem;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -336,7 +336,7 @@ a:focus {
 }
 
 .logo_item img {
-  width: 200px;
+  width: 12.5rem;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -359,8 +359,8 @@ a:focus {
 ***************************************/
 #video_testimonial_section {
   background-color: $testimonial_text_color;
-  padding-top: 60px;
-  padding-bottom: 115px;
+  padding-top: 3.75rem;
+  padding-bottom: 7.1875rem;
 }
 
 .white {
@@ -368,7 +368,7 @@ a:focus {
 }
 
 .video_testimonial_row {
-  padding: 50px 0px;
+  padding: 3.125rem 0rem;
 }
 
 .video_testimonial_title {
@@ -376,31 +376,31 @@ a:focus {
   color: $video_text_testimonial_color;
   font-weight: 400;
   font-size: $heading_font_size_50;
-  padding-bottom: 45px;
+  padding-bottom: 2.8125rem;
 }
 
 .video_testimonial_row {
-  padding: 50px 0px;
+  padding: 3.125rem 0rem;
 }
 
 .video_testimonial_icon {
-  max-width: 320px;
+  max-width: 20rem;
 }
 
 .video_testimonial_row p {
   color: $video_text_testimonial_color;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-family: $montserrat_font_family;
-  padding: 35px 0px;
+  padding: 2.1875rem 0rem;
 }
 
 .video_testimonial_row h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: $video_text_testimonial_color;
 }
 
 .video_testimonial_row span {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: $video_text_testimonial_color;
 }
 
@@ -420,20 +420,20 @@ a:focus {
 }
 
 .video_play img {
-  width: 84px;
+  width: 5.25rem;
 }
 
 .video_arrow_next {
   background-image: url(../images/icon/next-icon.svg);
   position: absolute;
-  right: 0px;
+  right: 0rem;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  width: 77px;
-  height: 77px;
+  width: 4.8125rem;
+  height: 4.8125rem;
 }
 
 .video_testimonial_wrapper button {
@@ -450,12 +450,12 @@ a:focus {
 ***************************************/
 #call_to_action {
   background-image: url("../images/call-to-action-bg.jpg");
-  margin: 170px 0px;
+  margin: 10.625rem 0rem;
   background-repeat: no-repeat;
 }
 
 #call_to_action h3 {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #fff;
   font-weight: 700;
   font-family: $montserrat_font_family;
@@ -465,24 +465,24 @@ a:focus {
 #call_to_action h2 {
   font-family: $exo_font_family;
   font-weight: 700;
-  font-size: 43px;
+  font-size: 2.6875rem;
   color: #fff;
   text-transform: uppercase;
-  padding-top: 45px;
-  padding-bottom: 80px;
+  padding-top: 2.8125rem;
+  padding-bottom: 5rem;
 }
 
 a.call_to_action_button {
   background-color: #5bbc2e;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: $montserrat_font_family;
-  padding: 25px 80px;
+  padding: 1.5625rem 5rem;
   color: #fff;
   text-decoration: none;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
+  -webkit-border-radius: 1.875rem;
+  -moz-border-radius: 1.875rem;
+  border-radius: 1.875rem;
   display: inline-block;
   text-transform: uppercase;
   transition: .1s;
@@ -505,7 +505,7 @@ a.call_to_action_button:hover {
   -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-height: 595px;
+  min-height: 37.1875rem;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -moz-box-align: center;
@@ -516,7 +516,7 @@ a.call_to_action_button:hover {
   -moz-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  padding-bottom: 95px;
+  padding-bottom: 5.9375rem;
   text-align: center;
 }
 
@@ -530,7 +530,7 @@ a.call_to_action_button:hover {
 ***************************************/
 #feedback_section {
   background: #f2f2f2;
-  padding: 75px 0px;
+  padding: 4.6875rem 0rem;
 }
 
 .feedback_title {
@@ -538,14 +538,14 @@ a.call_to_action_button:hover {
   font-weight: 700;
   color: $testimonial_text_color;
   font-family: $montserrat_font_family;
-  font-size: 43px;
+  font-size: 2.6875rem;
 }
 
 .feedback_box {
   background-color: #d2d6de;
-  margin-top: 15px;
-  margin-bottom: 25px;
-  padding: 180px 45px 45px 45px;
+  margin-top: 0.9375rem;
+  margin-bottom: 1.5625rem;
+  padding: 11.25rem 2.8125rem 2.8125rem 2.8125rem;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -568,7 +568,7 @@ a.call_to_action_button:hover {
 }
 
 .feedback_image {
-  width: 224px;
+  width: 14rem;
   position: absolute;
   left: 50%;
   top: -9%;
@@ -581,38 +581,38 @@ a.call_to_action_button:hover {
 }
 
 .feedback_box p {
-  font-size: 24px;
-  line-height: 48px;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
   color: $testimonial_text_color;
   font-family: $montserrat_font_family;
   font-weight: 700;
-  max-width: 900px;
+  max-width: 56.25rem;
 }
 
 .feedback_box h2 {
-  font-size: 48px;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 700;
-  padding-top: 25px;
-  padding-bottom: 15px;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.9375rem;
   color: $testimonial_text_color;
 }
 
 .feedback_box h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: $testimonial_text_color;
   font-weight: 400;
 }
 
 .green {
   background-color: #5bbc2e;
-  max-width: 700px;
+  max-width: 43.75rem;
 }
 
 .single_feedback.slick-slide {
-  padding-top: 115px;
+  padding-top: 7.1875rem;
   outline: none;
 }
 
@@ -634,13 +634,13 @@ a.call_to_action_button:hover {
 .feedback_wrapper li button {
   background: #272e4a;
   border: none;
-  width: 25px;
-  height: 25px;
+  width: 1.5625rem;
+  height: 1.5625rem;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  text-indent: -9999px;
-  margin: 8px;
+  text-indent: -624.9375rem;
+  margin: 0.5rem;
 }
 
 .feedback_wrapper li.slick-active button {
@@ -656,8 +656,8 @@ a.call_to_action_button:hover {
      Client Section Start
 ***************************************/
 .client_banner_section {
-  padding-top: 150px;
-  padding-bottom: 60px;
+  padding-top: 9.375rem;
+  padding-bottom: 3.75rem;
 }
 
 .client_title {
@@ -665,13 +665,13 @@ a.call_to_action_button:hover {
   color: $testimonial_text_color;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 35px;
+  padding-top: 4.375rem;
+  padding-bottom: 2.1875rem;
 }
 
 .client_subtitle {
   text-align: center;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
   color: $testimonial_text_color;
 }
@@ -681,12 +681,12 @@ a.call_to_action_button:hover {
 }
 
 .client_dropdown_option .form-control-lg {
-  font-size: 40px !important;
+  font-size: 2.5rem !important;
   font-weight: 400;
   font-family: 'montserrat', sans-serif;
   color: $testimonial_text_color;
   border-color: #a1a1a1;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .client_dropdown_option .form-control:focus {
@@ -698,14 +698,14 @@ a.call_to_action_button:hover {
 .client_arrow_prev {
   background-image: url("../images/clients/left-arrow.svg");
   position: absolute;
-  left: 0px;
+  left: 0rem;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -718,14 +718,14 @@ a.call_to_action_button:hover {
 .client_arrow_next {
   background-image: url(../images/clients/next.svg);
   position: absolute;
-  right: 0px;
+  right: 0rem;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -771,24 +771,24 @@ a.call_to_action_button:hover {
   -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 45px;
+  padding-top: 2.8125rem;
 }
 
 .heading_text {
   position: absolute;
   background: #5bbc2e;
   left: 0;
-  top: 70px;
-  padding: 20px;
+  top: 4.375rem;
+  padding: 1.25rem;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 
 .heading_text:after {
   position: absolute;
   content: '';
-  width: 16px;
-  height: 51px;
+  width: 1rem;
+  height: 3.1875rem;
   background: #5bbc2e;
   -webkit-transform: skewY(48deg);
   -moz-transform: skewY(48deg);
@@ -802,41 +802,41 @@ a.call_to_action_button:hover {
 
 .client_quote {
   position: absolute;
-  right: 30px;
-  width: 50px;
+  right: 1.875rem;
+  width: 3.125rem;
   top: 10%;
 }
 
 .client_name {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: $testimonial_text_color;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 .client_designation h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: $testimonial_text_color;
 }
 
 .client_designation {
-  padding-left: 45px;
+  padding-left: 2.8125rem;
 }
 
 .single_client_item {
-  margin: 70px !important;
+  margin: 4.375rem !important;
   background: #f4f4f4;
 }
 
 .client_details_wrapper {
-  padding: 66px 25px;
+  padding: 4.125rem 1.5625rem;
   position: relative;
 }
 
 .client_logo {
-  width: 150px;
-  padding-top: 200px;
-  padding-bottom: 30px;
+  width: 9.375rem;
+  padding-top: 12.5rem;
+  padding-bottom: 1.875rem;
 }
 
 .single_client_item.slick-slide:focus {
@@ -844,9 +844,9 @@ a.call_to_action_button:hover {
 }
 
 .client_details_wrapper p {
-  font-size: 24px;
-  letter-spacing: 1px;
-  padding-top: 50px;
+  font-size: 1.5rem;
+  letter-spacing: 0.0625rem;
+  padding-top: 3.125rem;
   color: $testimonial_text_color;
 }
 
@@ -860,29 +860,29 @@ a.call_to_action_button:hover {
 ***************************************/
 .case_study_box {
   background-color: #f2f2f2;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .case_studies_top {
-  padding: 50px 50px 0px 50px;
+  padding: 3.125rem 3.125rem 0rem 3.125rem;
 }
 
 .case_studies_top img {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 
 .case_studies_text {
-  padding: 35px;
-  font-size: 18px;
-  line-height: 32px;
+  padding: 2.1875rem;
+  font-size: 1.125rem;
+  line-height: 2rem;
   font-weight: 400;
   font-family: $montserrat_font_family;
   color: #000;
 }
 
 .case_studies_title {
-  padding-bottom: 100px;
-  padding-top: 90px;
+  padding-bottom: 6.25rem;
+  padding-top: 5.625rem;
 }
 
 /**************************************
@@ -900,16 +900,16 @@ a.call_to_action_button:hover {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  padding-top: 100px;
+  padding-top: 6.25rem;
   background-color: #f4f4f4;
 }
 
 .trusted_wrapper .feedback_title {
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 .trust_client_border {
-  margin-bottom: 130px;
+  margin-bottom: 8.125rem;
 }
 
 .trusted_item_row {
@@ -926,7 +926,7 @@ a.call_to_action_button:hover {
   -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 80px;
+  padding-bottom: 5rem;
 }
 
 /**************************************
@@ -940,31 +940,31 @@ a.call_to_action_button:hover {
 .footer_section {
   background-color: #172e58;
   color: #fff;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 3.125rem;
+  padding-bottom: 1.25rem;
 }
 
 .footer_title {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
   text-transform: uppercase;
 }
 
 .footer_section ul li {
   list-style: none;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 
 .footer_section ul li a {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   font-family: $montserrat_font_family;
 }
 
 .footer_section ul {
-  padding-top: 25px;
+  padding-top: 1.5625rem;
 }
 
 .copyright {
@@ -983,12 +983,12 @@ a.call_to_action_button:hover {
   -moz-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  height: 100px;
+  height: 6.25rem;
 }
 
 .social_icon a {
-  width: 44px;
-  height: 44px;
+  width: 2.75rem;
+  height: 2.75rem;
   background: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1009,12 +1009,12 @@ a.call_to_action_button:hover {
   -ms-flex-align: center;
   align-items: center;
   color: #172e58;
-  font-size: 20px;
-  margin: 5px;
+  font-size: 1.25rem;
+  margin: 0.3125rem;
 }
 
 .social_icon {
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 /**************************************
