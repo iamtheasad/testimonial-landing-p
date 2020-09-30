@@ -372,7 +372,9 @@ a:focus {
      Call to Action Start
 ***************************************/
 #call_to_action {
-  background-image: url("../images/call-to-action-bg.jpg"); }
+  background-image: url("../images/call-to-action-bg.jpg");
+  margin: 170px 0px;
+  background-repeat: no-repeat; }
 
 #call_to_action h3 {
   font-size: 36px;
@@ -402,7 +404,11 @@ a.call_to_action_button {
   -moz-border-radius: 30px;
   border-radius: 30px;
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: .1s; }
+
+a.call_to_action_button:hover {
+  background-color: #77cc4f; }
 
 .callToAction_wrapper {
   display: -webkit-box;
@@ -417,7 +423,7 @@ a.call_to_action_button {
   -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 595px;
+  min-height: 595px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -moz-box-align: center;

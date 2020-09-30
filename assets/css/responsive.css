@@ -13,6 +13,135 @@
 
 /* Tablet & Mobile Layout: 0px-991px */
 @media only screen and (max-width: 991px) {
+    #banner_section h1 {
+        font-size: 32px;
+    }
+
+    #banner_section p {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    #featured_testimonial_section h2 {
+        font-size: 24px;
+    }
+
+    .testimonial_row p, .testimonial_row h3, .testimonial_row span {
+        font-size: 18px;
+    }
+
+    .testimonial_wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .testimonial_row {
+        text-align: center;
+    }
+
+    .testimonial_row span {
+        display: block;
+        padding-bottom: 30px;
+        padding-top: 35px;
+    }
+
+    .video_testimonial_title {
+        font-size: 30px;
+    }
+
+    .video_testimonial_row p {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+
+    .testimonial_reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .slick-slide img {
+        padding-bottom: 30px;
+    }
+
+    .video_testimonial_row p {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .video_arrow_next {
+        width: 42px;
+        height: 42px;
+    }
+
+    #call_to_action h2 {
+        font-size: 18px;
+    }
+
+    #call_to_action h3 {
+        font-size: 14px;
+    }
+
+    a.call_to_action_button {
+        font-size: 14px;
+        padding: 13px 20px;
+    }
+
+    .callToAction_wrapper {
+        min-height: 192px;
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+
+    #call_to_action {
+        margin: 60px 0px;
+    }
+
+    .feedback_title {
+        font-size: 28px;
+    }
+
+    .feedback_image {
+        width: 145px;
+        top: -4%;
+    }
+
+    .feedback_box {
+        position: relative;
+        padding: 160px 15px 15px 15px;
+    }
+
+    .feedback_quote {
+        width: 45px;
+    }
+
+    .feedback_box p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    .feedback_box h2 {
+        font-size: 30px;
+    }
+
+    .feedback_box h3 {
+        font-size: 24px;
+    }
+
+    .client_title {
+        font-size: 32px;
+    }
+
+    .client_subtitle {
+        font-size: 28px;
+    }
+
+    .client_dropdown_option .form-control-lg {
+        font-size: 20px !important;
+    }
+
+    .client_dropdown_option {
+        margin: 15px;
+    }
+
 }
 
 /* Tablet & Mobile Layout: 0px-991px End */

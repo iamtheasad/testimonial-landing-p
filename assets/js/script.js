@@ -33,7 +33,7 @@
                     breakpoint: 480,
                     settings: {
                         arrows: false,
-                        slidesToShow: 2,
+                        slidesToShow: 3,
                     }
                 }
             ]
@@ -59,16 +59,16 @@
                 }
             },
                 {
-                    breakpoint: 600,
+                    breakpoint: 992,
                     settings: {
-                        arrows: false,
+                        arrows: true,
                         dots: false
                     }
                 },
                 {
                     breakpoint: 480,
                     settings: {
-                        arrows: false,
+                        arrows: true,
                         dots: false
                     }
                 }
