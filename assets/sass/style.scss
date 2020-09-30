@@ -717,3 +717,34 @@ a.call_to_action_button {
 /**************************************
      Case Study Section End
 ***************************************/
+
+
+/**************************************
+     rusted Client Section Start
+***************************************/
+.trusted_wrapper {
+  background-image: url(../images/case-studies/case_study_bg.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  background-color: #f4f4f4;
+}
+
+.trusted_wrapper .feedback_title {
+  padding-bottom: 60px;
+}
+
+.trust_client_border {
+  margin-bottom: 130px;
+}
+
+.trusted_item_row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+/**************************************
+     rusted Client Section End
+***************************************/
